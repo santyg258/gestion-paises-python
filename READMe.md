@@ -30,6 +30,5 @@ gestion-paises-python/
 3. Ejecutar con: python main.py
 
 ## Links
-- 📹 Video demostrativo: [link al video]
-- 📄 Documentación PDF: [link al PDF]
+- 📹 Video demostrativo: https://youtu.be/y7kCam6hmQ4?si=Qi_5ibjqj1IW0O4y
 - 🔗 Repositorio: https://github.com/santyg258/gestion-paises-python
