@@ -139,12 +139,12 @@ def main():
                 print("país no encontrado")
             else:
                 print("hay más de una coincidencia, sea más específico")
+
         elif opcion == 3:
             buscar = validar_texto("ingrese el pais: ")
             nom_pais = busqueda_pais(paises, buscar)
             for e in nom_pais:
                 print(e)
-            input("precione enter para continuar.")
 
         elif opcion == 4:
             op_filtro = menu_filtro()
@@ -154,7 +154,6 @@ def main():
             op_orden, forma = menu_ordenar()
             ascendente = forma.lower() == "ascendente"
             ordenar(op_orden, ascendente)
-            input("precione enter para continuar.")
             
         elif opcion == 6:
             print(f"el pais con mayor poblacion es: {pais_mayor_poblacion(paises)}")
